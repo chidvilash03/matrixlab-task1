@@ -1,0 +1,100 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background: url("https://res.cloudinary.com/dcqgdxcz3/image/upload/v1693049189/background-main_fwbzzn.png");
+    background-size: cover;
+}.mc-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-y:auto ;
+}
+.search-container{
+width: 500px;
+height: 40px;
+border-radius: 20px;
+border: 1px solid #FFF;
+background: linear-gradient(132deg, rgba(124, 15, 53, 0.20) 0%, rgba(88, 18, 102, 0.20) 100%);
+margin-top: 25px;
+align-self: flex-start;
+margin-left: 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+color: #ffffff;
+font-size: 20px;
+cursor: pointer;
+outline: none;
+padding: 5px;
+margin-bottom:75px;
+margin-right: auto;
+}
+.search-bar{
+width: 500px;
+height: 50px;
+align-self: center;
+background-color: transparent;
+border-width: 0px;
+font-size: 20px;
+cursor: pointer;
+outline: none;
+color: #ffffff;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+}
+.search-icon{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    align-self: center;
+    fill: #ffffff; 
+
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.mc-text{
+color: var(--cultured-grey, #F7F9F9);
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+margin-top: 15px;
+margin-left: 40px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.connect-btn{
+    border-radius: 20px;
+    background: linear-gradient(131deg, #7C0F35 0%, #581266 100%);
+    width: 156px;
+    height: 52px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+    align-self: flex-end;  
+    margin-bottom: auto;  
+    margin-top: 25px;
+}
